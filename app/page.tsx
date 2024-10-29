@@ -1,12 +1,12 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { ChevronRight, Menu, X, Zap, Shield, Gauge, Star } from "lucide-react";
+import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Card, CardContent } from "@/components/ui/card";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { ChevronRight, Gauge, Menu, Shield, Star, X, Zap } from "lucide-react";
+import { useEffect, useState } from "react";
 
 export default function Component() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
